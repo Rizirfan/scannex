@@ -1,10 +1,14 @@
 # SCANNEX - Android Document Scanner & Signing App
 
+[![Platform](https://img.shields.io/badge/Platform-Android-black.svg?style=flat-square)](https://developer.android.com)
+[![Language](https://img.shields.io/badge/Language-Kotlin-black.svg?style=flat-square)](https://kotlinlang.org)
+[![Build Status](https://img.shields.io/badge/Build-Passing-black.svg?style=flat-square)](https://github.com/Rizirfan/scannex)
+
 SCANNEX is a premium, high-performance, and minimalist monochrome Android application built with Jetpack Compose. It allows users to scan physical documents, import local PDFs/images, draw signatures with multiple ink colors, and save documents to the public gallery or share them.
 
 ---
 
-## 📸 Key Features
+## Key Features
 
 ### 1. Dynamic Document Scanning
 - Integrates the **Google Play Services ML Kit Document Scanner API**.
@@ -35,11 +39,11 @@ SCANNEX is a premium, high-performance, and minimalist monochrome Android applic
 
 ### 5. MediaStore Integration & Smooth Performance
 - Saves scanned/signed JPEGs directly into the device's public `Pictures/DocScanner` directory using the Android `MediaStore` API.
-- Fully asynchronous file listing and image thumbnail decoding using Kotlin Coroutines (`Dispatchers.IO`) to maintain 60fps/120fps scrolling.
+- Fully asynchronous file listing and image thumbnail decoding using Kotlin Coroutines (`Dispatchers.IO`) to maintain smooth 60fps/120fps scrolling.
 
 ---
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 - **Android Device/Emulator**: Android 7.0 (API Level 24) or newer.
 - **Development Tools**: Android Studio (or Android SDK tools with JDK 17).
@@ -47,13 +51,13 @@ SCANNEX is a premium, high-performance, and minimalist monochrome Android applic
 
 ---
 
-## 📥 Download & Installation Guide
+## Download & Installation Guide
 
 You can download and install the SCANNEX application directly on any Android device without connecting it to a computer.
 
 ### Step 1: Download the APK
 Click the link below on your Android device to download the installer directly:
-👉 **[Download SCANNEX.apk](https://github.com/Rizirfan/scannex/raw/main/SCANNEX.apk)**
+**[Download SCANNEX.apk](https://github.com/Rizirfan/scannex/raw/main/SCANNEX.apk)**
 
 ### Step 2: Enable Unknown Sources
 Because this is a custom-built app, Android requires permission to install it:
@@ -67,7 +71,7 @@ Because this is a custom-built app, Android requires permission to install it:
 
 ---
 
-## 🏗️ How to Build from Source
+## How to Build from Source
 
 To compile the codebase manually, open the terminal in the project root directory and run the Gradle wrapper command:
 ```powershell
