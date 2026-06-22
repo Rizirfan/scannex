@@ -47,28 +47,23 @@ SCANNEX is a premium, high-performance, and minimalist monochrome Android applic
 
 ---
 
-## 🚀 How to Install & Deploy
+## 📥 Download & Installation Guide
 
-### 1. Pre-built APK Location
-The compiled debug installation package is generated at:
-`app/build/outputs/apk/debug/app-debug.apk`
+You can download and install the SCANNEX application directly on any Android device without connecting it to a computer.
 
-### 2. Wireless Installation (No USB Cable/Computer Needed)
-To run the app on another device without connecting it to a computer:
-1. **Send the APK**: Share the file `app-debug.apk` using Google Drive, Email, WhatsApp, or Telegram.
-2. **Download on Device**: Open the file on the target Android phone.
-3. **Toggle Install Settings**: If prompted that installation is blocked from **"Unknown Sources"**, tap **Settings** and toggle **"Allow from this source"**.
-4. **Install**: Tap **Install** and launch **SCANNEX** from the app menu.
+### Step 1: Download the APK
+Click the link below on your Android device to download the installer directly:
+👉 **[Download SCANNEX.apk](https://github.com/Rizirfan/scannex/raw/main/SCANNEX.apk)**
 
-### 3. Deploying using Android CLI / ADB
-If your device is connected via USB and USB Debugging is active, run the deployment tool:
-```powershell
-C:\Users\hp202\AppData\AndroidCLI\android.exe run --apks="app/build/outputs/apk/debug/app-debug.apk"
-```
-Or use the standard `adb` client:
-```powershell
-adb install -r app/build/outputs/apk/debug/app-debug.apk
-```
+### Step 2: Enable Unknown Sources
+Because this is a custom-built app, Android requires permission to install it:
+1. Open the downloaded `.apk` file.
+2. If blocked, tap **Settings** in the popup warning.
+3. Toggle **"Allow from this source"** (or enable **Unknown Sources** under Security settings depending on your Android version).
+
+### Step 3: Install
+1. Tap the APK file again.
+2. Click **Install** and open **SCANNEX** from your app drawer!
 
 ---
 
