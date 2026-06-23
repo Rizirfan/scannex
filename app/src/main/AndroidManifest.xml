@@ -9,6 +9,10 @@
         android:supportsRtl="true"
         android:windowSoftInputMode="adjustResize"
         android:theme="@style/Theme.DocScanner">
+
+        <meta-data
+            android:name="com.google.mlkit.vision.DEPENDENCIES"
+            android:value="document_ui" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
